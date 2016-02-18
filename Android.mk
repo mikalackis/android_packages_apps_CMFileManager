@@ -35,6 +35,8 @@ LOCAL_STATIC_JAVA_LIBRARIES += android-support-v4
 LOCAL_STATIC_JAVA_LIBRARIES += juniversalchardet
 LOCAL_STATIC_JAVA_LIBRARIES += uicommon
 
+LOCAL_MODULE_TAGS := optional
+
 LOCAL_PACKAGE_NAME := CMFileManager
 LOCAL_CERTIFICATE := platform
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
